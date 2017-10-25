@@ -1,4 +1,4 @@
-= Vert.x Maven Starter
+= Rental App Using Vert.x Maven Starter
 
 This project is a template to start your own Vert.x project using Apache Maven.
 
