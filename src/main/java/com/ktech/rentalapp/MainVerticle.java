@@ -1,4 +1,4 @@
-package io.vertx.starter;
+package com.ktech.rentalapp;
 
 import io.vertx.core.AbstractVerticle;
 
