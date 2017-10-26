@@ -1,5 +1,6 @@
 package com.ktech.rentalapp;
 
+import io.vertx.core.Future;
 import io.vertx.core.Vertx;
 import io.vertx.ext.unit.Async;
 import io.vertx.ext.unit.TestContext;
