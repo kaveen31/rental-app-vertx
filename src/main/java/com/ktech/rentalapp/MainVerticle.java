@@ -1,5 +1,6 @@
 package com.ktech.rentalapp;
 
+import com.ktech.rentalapp.database.WikiDatabaseVerticle;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Future;
@@ -16,7 +17,7 @@ public class MainVerticle extends AbstractVerticle {
 
       Future<String> httpVerticleDeployment = Future.future();
       vertx.deployVerticle(
-        "com.ktech.rentalapp.HttpServerVerticle",
+        "com.ktech.rentalapp.http.HttpServerVerticle",
         new DeploymentOptions().setInstances(2),
         httpVerticleDeployment.completer()
       );
